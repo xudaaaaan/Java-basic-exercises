@@ -17,7 +17,7 @@ public class Narcissistic {
 		int hun = n / 100;
 		int ten = (n - hun * 100) / 10;
 		int sin = (n - hun * 100 - ten * 10);
-		return ( n == (sin * sin * sin + ten * ten * ten + hun * hun * hun));
+		return n == (sin * sin * sin + ten * ten * ten + hun * hun * hun);
 			
 	}
 
