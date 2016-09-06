@@ -1,5 +1,5 @@
 /**
- * ÊäÈëÁ½¸öÕıÕûÊımºÍn£¬ÇóÆä×î´ó¹«Ô¼ÊıºÍ×îĞ¡¹«±¶Êı¡£
+ * è¾“å…¥ä¸¤ä¸ªæ­£æ•´æ•°må’Œnï¼Œæ±‚å…¶æœ€å¤§å…¬çº¦æ•°å’Œæœ€å°å…¬å€æ•°ã€‚
  * @author xudan
  *
  */
@@ -28,3 +28,11 @@ public class Gcd_Lcm {
 	}
 
 }
+
+è¿è¡Œç»“æœï¼š
+3 6 : greatest commom divisor : 3  least commom multiple : 6
+4 7 : greatest commom divisor : 1  least commom multiple : 28
+45 67 : greatest commom divisor : 1  least commom multiple : 3015
+56 78 : greatest commom divisor : 2  least commom multiple : 2184
+100 320 : greatest commom divisor : 20  least commom multiple : 1600
+
