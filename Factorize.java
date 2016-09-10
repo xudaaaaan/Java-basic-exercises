@@ -17,21 +17,20 @@ public class Factorize {
 	public static void factorize(int n){
 		System.out.print(n + "=");
 		for(int i = 2; i <= n; i ++){
-			if(isPrime(i)){
-				if(i == n){
-					System.out.print(i);
-				}else{
-					if(n % i == 0){
-						System.out.print(i + "*");
-						n /= i;
-						i--;
-					}
-				}	
+			if(!isPrime(i)){
+				continue;
+			}
+			if(i == n){
+				System.out.print(i);
+				break;
+			}
+			if(n % i == 0){
+				System.out.print(i + "*");
+				n /= i;
+				i--;
 			}
 		}
 		System.out.println();
-		
-		
 	}
 	
 	public static boolean isPrime(int n){
@@ -46,13 +45,8 @@ public class Factorize {
 				 }
 			 }
 			 return true;
-			
 		}
-		
-		
-		
 	}
-
 }
 
 运行结果:
