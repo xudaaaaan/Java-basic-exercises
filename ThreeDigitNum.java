@@ -1,14 +1,12 @@
 /**
- * ÓĞ1¡¢2¡¢3¡¢4¸öÊı×Ö£¬ÄÜ×é³É¶àÉÙ¸ö»¥²»ÏàÍ¬ÇÒÎŞÖØ¸´Êı×ÖµÄÈıÎ»Êı£¿¶¼ÊÇ¶àÉÙ£¿ 
+ * æœ‰1ã€2ã€3ã€4ä¸ªæ•°å­—ï¼Œèƒ½ç»„æˆå¤šå°‘ä¸ªäº’ä¸ç›¸åŒä¸”æ— é‡å¤æ•°å­—çš„ä¸‰ä½æ•°ï¼Ÿéƒ½æ˜¯å¤šå°‘ï¼Ÿ 
  * @author xudan
  *
  */
 public class ThreeDigitNum {
 
 	public static void main(String[] args) {
-		
 		int amount = 0;
-		
 		for(int i = 1; i <= 4; i++){
 			for(int j = 1; j <= 4; j++){
 				for(int k = 1; k <= 4; k++){
@@ -18,8 +16,33 @@ public class ThreeDigitNum {
 					}
 				}
 			}
-			
 		}
 		System.out.println("The number of the three-digit-number is " + amount);
 	}
 }
+
+è¿è¡Œç»“æœï¼š
+123
+132
+134
+142
+143
+213
+214
+231
+234
+241
+243
+312
+314
+321
+324
+341
+342
+412
+413
+421
+423
+431
+432
+The number of the three-digit-number is 24
