@@ -1,6 +1,6 @@
 /**
- * Ò»¸öÕûÊı£¬Ëü¼ÓÉÏ100ºóÊÇÒ»¸öÍêÈ«Æ½·½Êı£¬ÔÙ¼ÓÉÏ168ÓÖÊÇÒ»¸öÍêÈ«Æ½·½Êı£¬ÇëÎÊ¸ÃÊıÊÇ¶àÉÙ£¿ 
- * @author xuyao
+ * ä¸€ä¸ªæ•´æ•°ï¼Œå®ƒåŠ ä¸Š100åæ˜¯ä¸€ä¸ªå®Œå…¨å¹³æ–¹æ•°ï¼Œå†åŠ ä¸Š168åˆæ˜¯ä¸€ä¸ªå®Œå…¨å¹³æ–¹æ•°ï¼Œè¯·é—®è¯¥æ•°æ˜¯å¤šå°‘ï¼Ÿ 
+ * @author xudan
  *
  */
 public class NumProblem13 {
@@ -11,7 +11,6 @@ public class NumProblem13 {
 				System.out.println("The number is " + i);
 			}
 		}
-
 	}
 	
 	public static boolean isPerfectSquare(int n){
@@ -21,7 +20,7 @@ public class NumProblem13 {
 			}
 		}
 		return false;
-		
 	}
-
 }
+è¿è¡Œç»“æœï¼š
+The number is 156
